@@ -1,0 +1,61 @@
+
+.cookie-oval {
+    border-radius: 100%;
+}
+
+.jumbotron {
+    height: 100vh;
+    margin-bottom: 0;
+    background-image: url('../img/milkbg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 4rem 0;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card h1 {
+    font-size: 4rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
+
+.about {
+    background-color: #ccc;
+}
+
+.contact {
+    color: #ddd;
+    background-color: #1E90FF;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+    
+    .card h1 {
+        font-size: 2rem;
+    }
+    
+    .card p {
+        font-size: 1rem;
+    }
+}
